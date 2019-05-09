@@ -11,7 +11,7 @@ import java.util.Date;
 @Service
 public class ProfitServiceImpl implements ProfitService {
 
-    private static final BigDecimal SPREAD = new BigDecimal(0.05);
+    private static final BigDecimal SPREAD = new BigDecimal(0.005);
     private final FixerClient fixerClient;
 
     @Autowired
